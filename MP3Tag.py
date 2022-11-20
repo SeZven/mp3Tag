@@ -2,7 +2,7 @@ import os
 import eyed3
 
 
-PATH = "D:\Musik\Songs2\ADDASWELL" # Path to .mp3 files
+PATH = "" # Path to .mp3 files
 
 def main():
     for root,dirs,files, in os.walk(PATH):
